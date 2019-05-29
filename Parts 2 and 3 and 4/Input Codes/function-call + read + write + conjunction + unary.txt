@@ -1,0 +1,17 @@
+var1:integer;
+var2:string;
+function func(): string begin end;
+function myProc(a:integer,b:string,c:bool):integer 
+begin 
+
+read(var1);
+write(var2);
+
+if func() then return(var1 and not var2) fi;
+
+func();
+end;
+
+procedure proc() begin
+myProc(var1,2*var2,var2);
+end;

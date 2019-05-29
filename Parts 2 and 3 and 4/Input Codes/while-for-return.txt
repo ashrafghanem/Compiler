@@ -1,0 +1,14 @@
+var1:integer;
+var2:string;
+function myProc(a:integer,b:string,c:bool):integer 
+begin 
+
+while (true) 
+do
+	if var2=10 then
+	var2:=0
+	fi
+od;
+for var1:=2*var2+var1 to 20 do return("bye") od;
+
+end;

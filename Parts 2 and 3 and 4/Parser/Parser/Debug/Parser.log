@@ -1,0 +1,31 @@
+﻿Build started 12/8/2018 12:03:27 AM.
+     1>Project "C:\Users\ans_g\documents\visual studio 2013\Projects\Parser\Parser\Parser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ast.cpp main.cpp parser.cpp symbol.cpp
+         symbol.cpp
+         parser.cpp
+         main.cpp
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\main.cpp(7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         ast.cpp
+         Generating Code...
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(51): warning C4715: 'Parser::parse_type' : not all control paths return a value
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(131): warning C4715: 'Parser::parse_formal_list_bar' : not all control paths return a value
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(301): warning C4715: 'Parser::parse_call_assign' : not all control paths return a value
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(326): warning C4715: 'Parser::parse_ifstmt' : not all control paths return a value
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(473): warning C4715: 'Parser::parse_arg_list_bar' : not all control paths return a value
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(648): warning C4715: 'Parser::parse_f' : not all control paths return a value
+     1>c:\users\ans_g\documents\visual studio 2013\projects\parser\parser\parser.cpp(617): warning C4715: 'Parser::parse_call_id' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ans_g\documents\visual studio 2013\Projects\Parser\Debug\Parser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ans_g\documents\visual studio 2013\Projects\Parser\Debug\Parser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ans_g\documents\visual studio 2013\Projects\Parser\Debug\Parser.lib" /MACHINE:X86 Debug\ast.obj
+         Debug\FileDescriptor.obj
+         Debug\main.obj
+         Debug\parser.obj
+         Debug\scanner.obj
+         Debug\symbol.obj
+         Parser.vcxproj -> C:\Users\ans_g\documents\visual studio 2013\Projects\Parser\Debug\Parser.exe
+     1>Done Building Project "C:\Users\ans_g\documents\visual studio 2013\Projects\Parser\Parser\Parser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.47

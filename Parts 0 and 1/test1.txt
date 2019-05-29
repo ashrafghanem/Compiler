@@ -1,0 +1,44 @@
+constant x=20;
+
+function s(w:integer,y :string) :integer
+begin
+var x : integer;
+x:=2;
+w:=3;
+return(x);
+end;
+
+function main():integer
+begin
+var xx:integer;
+var x:integer;
+var y:integer;
+x:=7;
+
+if x!=6 then xx:=6 
+fi;
+
+while (x<100) do x:=x+1
+od;
+
+for y:=0 to y<5 do x:="ggg"
+od;
+
+
+
+begin
+var x:integer;
+var z:integer;
+
+if ((x+1) and (y+1)) then read(x)
+fi;
+end;
+
+
+
+write(x);
+ s();
+return(1);
+
+
+end;

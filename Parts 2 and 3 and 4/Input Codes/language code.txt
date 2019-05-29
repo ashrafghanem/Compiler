@@ -1,0 +1,15 @@
+num:integer;
+procedure print(i:integer) 
+begin
+j:integer;
+for j:=0 to i 
+do
+write(j)
+od;
+end;
+
+procedure main()
+begin
+read(num);
+print(num);
+end;

@@ -1,0 +1,28 @@
+func(ss: string)1245k
+{
+	float y = 5.3f6,	z = 14;
+	integer w = 33+14-98*7/8;
+	if(x!=17) print("hello\"world");
+	if(x>10.as8) print("hello);
+			
+
+
+
+
+
+## good comment ## int
+# Bad comment 
+
+	for()
+	{
+		y++;
+		V:15 !X;
+	}
+
+	integer y = 578 + 6.8776 * 4 /2;
+}
+
+void main()
+{
+	##comment ok ero er r
+}

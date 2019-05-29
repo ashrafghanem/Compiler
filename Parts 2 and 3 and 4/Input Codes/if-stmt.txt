@@ -1,0 +1,20 @@
+var1:integer;
+var2:string;
+function myProc(a:integer,b:string,c:bool):integer 
+begin 
+if var1=var2 then 
+	if var2=10 then 
+		begin 
+			var2:=16; 
+			var1:=5; 
+		end 
+	fi 
+else 
+	if var2=10 then 
+		begin 
+			var2:=16; 
+			var1:=5; 
+		end 
+	fi 
+fi;
+end;
